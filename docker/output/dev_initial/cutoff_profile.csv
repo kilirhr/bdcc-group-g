@@ -1,0 +1,13 @@
+cutoff_id,source_table,delivered_by_cutoff,rejected,not_yet_effective,replays,superseded_versions,quarantined_rows,quarantined_keys,current_facts
+C1,gateway_requests,10108,0,0,108,0,0,0,10000
+C2,gateway_requests,10108,0,0,108,0,0,0,10000
+C1,processor_events,20888,77,0,97,0,86,43,20628
+C2,processor_events,20927,77,0,97,39,86,43,20628
+C1,refund_events,1587,0,0,5,459,0,0,1123
+C2,refund_events,1963,0,0,9,831,0,0,1123
+C1,settlement_lines,10617,0,0,96,0,0,0,10521
+C2,settlement_lines,11435,0,0,106,0,0,0,11329
+C1,reference_mappings,19922,0,0,109,0,0,0,19813
+C2,reference_mappings,20017,0,0,109,0,0,0,19908
+C1,terminal_assignments,10000,0,0,0,0,0,0,10000
+C2,terminal_assignments,10000,0,0,0,0,0,0,10000

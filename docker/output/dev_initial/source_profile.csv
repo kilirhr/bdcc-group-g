@@ -1,0 +1,9 @@
+source_table,delivered,rejected,replays,distinct_facts,distinct_keys,distinct_bare_keys,multi_version_keys,max_version,conflict_groups,conflict_rows
+gateway_requests,10108,0,108,10000,10000,9916,0,1,0,0
+processor_events,20927,77,97,20753,20671,20512,39,2,43,86
+refund_events,1963,0,9,1954,1123,1123,831,2,0,0
+settlement_lines,11543,0,106,11437,11437,11334,0,1,0,0
+reference_mappings,20017,0,109,19908,19908,19741,0,1,0,0
+terminal_assignments,10000,0,0,10000,10000,2000,0,1,0,0
+merchant_campaigns,3750,0,0,3750,3750,750,0,1,0,0
+terminal_service_tickets,30000,0,0,30000,30000,6000,0,1,0,0

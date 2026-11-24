@@ -42,7 +42,7 @@
     }
   },
   "gate": "PASS",
-  "image_id": "sha256:c23b193a41f2077a3916f67ecda2cd98a3542b28ffc834f2ab030a762c7581f5",
+  "image_id": "sha256:ab3b08d2cd69a8a4e47c09bdb6f9f692daf5c4bfa13ad02ad7aa0885d0588d7e",
   "inputs": {
     "delivery_manifests.csv": {
       "bytes": 115115,
@@ -87,6 +87,7 @@
     "rows": 829,
     "unusable_rows": 0
   },
+  "payment_day": "2026-01-31",
   "rejection_reasons": {
     "gateway_requests": {},
     "merchant_campaigns": {},
@@ -101,5 +102,5 @@
     "terminal_service_tickets": {}
   },
   "status": "complete",
-  "validator_version": "1.0.0"
+  "validator_version": "1.1.0"
 }
