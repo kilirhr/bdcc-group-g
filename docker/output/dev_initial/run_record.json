@@ -1,0 +1,105 @@
+{
+  "counts": {
+    "gateway_requests": {
+      "delivered": 10108,
+      "rejected": 0,
+      "usable": 10108
+    },
+    "merchant_campaigns": {
+      "delivered": 3750,
+      "rejected": 0,
+      "usable": 3750
+    },
+    "processor_events": {
+      "delivered": 20927,
+      "rejected": 77,
+      "usable": 20850
+    },
+    "reference_mappings": {
+      "delivered": 20017,
+      "rejected": 0,
+      "usable": 20017
+    },
+    "refund_events": {
+      "delivered": 1963,
+      "rejected": 0,
+      "usable": 1963
+    },
+    "settlement_lines": {
+      "delivered": 11543,
+      "rejected": 0,
+      "usable": 11543
+    },
+    "terminal_assignments": {
+      "delivered": 10000,
+      "rejected": 0,
+      "usable": 10000
+    },
+    "terminal_service_tickets": {
+      "delivered": 30000,
+      "rejected": 0,
+      "usable": 30000
+    }
+  },
+  "gate": "PASS",
+  "image_id": "sha256:c23b193a41f2077a3916f67ecda2cd98a3542b28ffc834f2ab030a762c7581f5",
+  "inputs": {
+    "delivery_manifests.csv": {
+      "bytes": 114285,
+      "sha256": "a630d59e89cc5a51d9304edddfd825dbcaea8ec51a6d1faeabecb7c5a9797edd"
+    },
+    "gateway_requests.csv": {
+      "bytes": 2114147,
+      "sha256": "022f73dd6042d0b15cbe3777b0290eb77c5d582e1e29ccca328e0541a96e8692"
+    },
+    "merchant_campaigns.csv": {
+      "bytes": 493616,
+      "sha256": "2752d33edfc36a8640272a4012815d0fea45e2dfc01b1cf5b3fc1d249c0b6444"
+    },
+    "processor_events.csv": {
+      "bytes": 3383241,
+      "sha256": "756972dec046ff40e2715b84bc99d7b127b7c16baaa133d4249aefc7f3d7c92e"
+    },
+    "reference_mappings.csv": {
+      "bytes": 2882581,
+      "sha256": "2d57bf2db18c6bc52a3f1ce1fb04b6e787390ffbc6474a023effd4da3abdcf53"
+    },
+    "refund_events.csv": {
+      "bytes": 281925,
+      "sha256": "8e392dc9c3dad45094a21997495f08658a037d4aa682b14c0e15a8a2283c5785"
+    },
+    "settlement_lines.csv": {
+      "bytes": 1778537,
+      "sha256": "c7f204f80279470bf87a5b91e1e620a8a3c8b2ada4ce422e96454347db7b41b5"
+    },
+    "terminal_assignments.csv": {
+      "bytes": 1550129,
+      "sha256": "11c2e83c7c3686d008fea3d5f00f96d3ff8ffc7a689cf410739357688f936165"
+    },
+    "terminal_service_tickets.csv": {
+      "bytes": 4840122,
+      "sha256": "d9b5694e5557ba07ff388d00d03debce478b1226ccffd0b07197f92370a4724c"
+    }
+  },
+  "manifest": {
+    "delivery_count_mismatches": 0,
+    "issues": {},
+    "rows": 829,
+    "unusable_rows": 0
+  },
+  "rejection_reasons": {
+    "gateway_requests": {},
+    "merchant_campaigns": {},
+    "processor_events": {
+      "invalid_amount": 31,
+      "invalid_timestamp": 46
+    },
+    "reference_mappings": {},
+    "refund_events": {},
+    "settlement_lines": {},
+    "terminal_assignments": {},
+    "terminal_service_tickets": {}
+  },
+  "status": "complete",
+  "validator_version": "1.0.0"
+}
